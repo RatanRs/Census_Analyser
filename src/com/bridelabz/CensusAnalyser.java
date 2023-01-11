@@ -32,7 +32,7 @@ package com.bridelabz;
 
 		public static void main(String[] args) throws CensusAnalyserException {
 
-			final String INDIA_CENSUS_CSV_FILE_PATH = "E:\\RFP229\\CensusAnalyser\\IndiaStateCensusData.csv";
+			final String INDIA_CENSUS_CSV_FILE_PATH = "E:\\RFP229\\CensusAnalyser\\IndiaStateCode.csv";
 			CensusAnalyser censusAnalyser = new CensusAnalyser();
 			int numOfRecords = censusAnalyser.loadIndiaCensusData(INDIA_CENSUS_CSV_FILE_PATH);
 			System.out.println(numOfRecords);

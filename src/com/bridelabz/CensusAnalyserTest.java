@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class CensusAnalyserTest {
-	private static final String INDIA_CENSUS_CSV_FILE_PATH = "E:\\RFP229\\CensusAnalyser\\IndiaStateCensusData.csv";
+	private static final String INDIA_CENSUS_CSV_FILE_PATH = "E:\\RFP229\\CensusAnalyser\\IndiaStateCode.csv";
 
 	@Test
 	public void givenIndianCensusCSVFileReturnsCorrectRecords() {
